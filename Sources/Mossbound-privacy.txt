@@ -1,0 +1,9 @@
+Mossbound Privacy Policy
+
+Updated November 10, 2026.
+
+Mossbound does not require an account. The developer does not collect information about players or share it with third parties. The game contains no advertising, analytics or tracking across other apps or websites.
+
+The game stores your personal best, completed crossing statistics, daily expedition results and sound setting on your device. These records are used to display progress and badges in the field notebook. The device's local calendar date determines the daily expedition.
+
+Records remain on your device until you delete the app. To remove them, choose "Delete App" in iOS or iPadOS Settings. System backups may include game data if backups are enabled on your device. The device owner manages backups and their deletion in Apple settings.
