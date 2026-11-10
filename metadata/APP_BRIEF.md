@@ -1,4 +1,4 @@
-<!-- gf-brief source=f3e9f507bea6b36cae4b3dbd93b0d34e576fed8a6a2b4085c8f976be5fda0e86 written=2026-11-10T19:31:18+03:00 -->
+<!-- gf-brief source=4678a795de7ec5d31b6d19839439869d319d56d0383c00f925d49538c4092051 written=2026-11-10T19:32:00+03:00 -->
 # Sweetbound
 
 ## What it is
