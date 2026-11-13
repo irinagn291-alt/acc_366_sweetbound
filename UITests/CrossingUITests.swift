@@ -3,6 +3,7 @@ import XCTest
 final class CrossingUITests: XCTestCase {
     func testTapToHopPauseResumeAndReplay() {
         let app = XCUIApplication()
+        app.launchArguments += ["-registration_attempted", "YES", "-cached_content_url", ""]
         app.launchArguments += ["-AppleLanguages", "(ru)", "-AppleLocale", "ru_RU"]
         app.launch()
         let start = app.buttons["startCrossing"]
@@ -36,6 +37,7 @@ final class CrossingUITests: XCTestCase {
 
     func testGuideTrainingAndJournal() {
         let app = XCUIApplication()
+        app.launchArguments += ["-registration_attempted", "YES", "-cached_content_url", ""]
         app.launchArguments += ["-AppleLanguages", "(ru)", "-AppleLocale", "ru_RU"]
         app.launch()
         app.buttons["openGuide"].tap()
@@ -59,6 +61,7 @@ final class CrossingUITests: XCTestCase {
 
     func testDailySurveySignAndReplay() {
         let app = XCUIApplication()
+        app.launchArguments += ["-registration_attempted", "YES", "-cached_content_url", ""]
         app.launchArguments += ["-AppleLanguages", "(ru)", "-AppleLocale", "ru_RU"]
         app.launch()
         app.buttons["dailyCrossing"].tap()
@@ -84,6 +87,7 @@ final class CrossingUITests: XCTestCase {
 
     func testPrivacyPolicyIsReadableOffline() {
         let app = XCUIApplication()
+        app.launchArguments += ["-registration_attempted", "YES", "-cached_content_url", ""]
         app.launchArguments += ["-AppleLanguages", "(ru)", "-AppleLocale", "ru_RU"]
         app.launch()
         app.buttons["aboutGame"].tap()

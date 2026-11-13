@@ -14,20 +14,27 @@
 		2C4F2C61283F76FEE87C3762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BAFE6C366577A5D2EC7606 /* Assets.xcassets */; };
 		30072066758A9BE77008B310 /* TrailBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF547FDDE9D934418DCD65A2 /* TrailBoard.swift */; };
 		309EE9F0467CE334BA525A5A /* Mossbound-privacy.txt in Resources */ = {isa = PBXBuildFile; fileRef = E4A015C2236E7F218EC0B243 /* Mossbound-privacy.txt */; };
+		35091625EB2499DF768CA8F3 /* InAppBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D0162AF2235E58E0E6F8E9 /* InAppBrowser.swift */; };
 		38E6785B3A43B2A96694BC5F /* TrailJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DF916FBB5C655102FAF151 /* TrailJournalTests.swift */; };
 		39511D025CF97360FC0BBFCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BEDFDA80B66358D1A1B909D /* InfoPlist.strings */; };
 		3B8400B46C8947D21AC6AF89 /* GameAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74BE59C555D712837117630 /* GameAbout.swift */; };
+		44DA91E6F082E45634862AD9 /* BrowserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7B7F7DE84ADCAB0922FCC /* BrowserSession.swift */; };
 		531F52800017BA54330691EE /* TrailAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF18A17C75F343982E7D834 /* TrailAudio.swift */; };
 		5ABFBC8DD188BAF18DB26870 /* WetlandSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC5C6DF07BC4146CEAB3DD /* WetlandSurvey.swift */; };
 		5E9BD9F149D4F0159FC3571C /* bump.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7925E33585DAEA3B5EF4E0D /* bump.wav */; };
 		6971F11F244C973EBC107041 /* CrossingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C49E23219F0CADD63D38F5 /* CrossingView.swift */; };
+		6B32B3CBEB0986891C7A231B /* AppLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E555F74F98C71529AAF7484 /* AppLaunch.swift */; };
+		6DD7E1F495377087BBD647EC /* BrowserJourney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025542CEB21C978838A4A2F1 /* BrowserJourney.swift */; };
 		71D829225ADD5D2DD2F0DDEF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = BDA87E6B3DDC635C0BA9E4D1 /* PrivacyInfo.xcprivacy */; };
+		78327A6F392078A1DFCDA60B /* RegistrationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713C36D79E10FBCEE0B3FA39 /* RegistrationClient.swift */; };
+		7D38ABA42143B1D6A66E8E73 /* AppLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6476A5A8D9D407C1D62B63 /* AppLaunchTests.swift */; };
 		872540920B783735D16A4C02 /* MossboundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEDF871437EAEBA84CFA93 /* MossboundApp.swift */; };
 		8BEDF77C339528163A7888E1 /* PracticeTrail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A06789173A794BD5C3C752 /* PracticeTrail.swift */; };
 		9EC9C2796FD611304336242B /* TrailGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A76A52A283CA2E6A95ABC51 /* TrailGameTests.swift */; };
 		A8216EC7A2A8D17324B7FD00 /* WetlandSurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6E4141C3EC491137FEF0A7 /* WetlandSurveyTests.swift */; };
 		AE77CF8602F4EFA4EAE97175 /* FieldNotebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FC6EF82A30EBC5A51C0B20 /* FieldNotebook.swift */; };
 		B16CD44068672151DD8965E7 /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 628F851F1D586C0E2B7ED090 /* jump.wav */; };
+		C45DC5350E01333AF96B5FFF /* AppEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB0F77A8107361A0DBF0D4 /* AppEndpoints.swift */; };
 		D42CAF8D9FCD9F87DFCAA761 /* TrailJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DF8EF20AA86369C78A1E3E /* TrailJournal.swift */; };
 		E64917FA1427EC1E07683260 /* TrailGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B4522A23311DEB3576B1B6 /* TrailGame.swift */; };
 		F6BCCDB2BDFF5DC25FCC6BD5 /* CrossingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA7174EBA4FDC70064B5AAB /* CrossingUITests.swift */; };
@@ -52,16 +59,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		025542CEB21C978838A4A2F1 /* BrowserJourney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserJourney.swift; sourceTree = "<group>"; };
+		38D0162AF2235E58E0E6F8E9 /* InAppBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppBrowser.swift; sourceTree = "<group>"; };
 		3BEE08E6720F19122F1B3B5F /* FieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldStyle.swift; sourceTree = "<group>"; };
 		49772F9F9D60ED8E70DA5979 /* splash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = splash.wav; sourceTree = "<group>"; };
 		4FF18A17C75F343982E7D834 /* TrailAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailAudio.swift; sourceTree = "<group>"; };
 		55A06789173A794BD5C3C752 /* PracticeTrail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTrail.swift; sourceTree = "<group>"; };
-		5863173D3E3E2449C7C43FD1 /* Mossbound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mossbound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5863173D3E3E2449C7C43FD1 /* Mossbound.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Mossbound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60FC6EF82A30EBC5A51C0B20 /* FieldNotebook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldNotebook.swift; sourceTree = "<group>"; };
 		628F851F1D586C0E2B7ED090 /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
+		6D6476A5A8D9D407C1D62B63 /* AppLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchTests.swift; sourceTree = "<group>"; };
+		713C36D79E10FBCEE0B3FA39 /* RegistrationClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationClient.swift; sourceTree = "<group>"; };
 		717B714E3EDD13FA28086C77 /* MossboundUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MossboundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DF8EF20AA86369C78A1E3E /* TrailJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailJournal.swift; sourceTree = "<group>"; };
 		7A76A52A283CA2E6A95ABC51 /* TrailGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailGameTests.swift; sourceTree = "<group>"; };
+		7CCB0F77A8107361A0DBF0D4 /* AppEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEndpoints.swift; sourceTree = "<group>"; };
+		7E555F74F98C71529AAF7484 /* AppLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunch.swift; sourceTree = "<group>"; };
 		82DF916FBB5C655102FAF151 /* TrailJournalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailJournalTests.swift; sourceTree = "<group>"; };
 		87DC5C6DF07BC4146CEAB3DD /* WetlandSurvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WetlandSurvey.swift; sourceTree = "<group>"; };
 		9368C868D0A7327EF67C0625 /* PracticeTrailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTrailTests.swift; sourceTree = "<group>"; };
@@ -69,14 +82,15 @@
 		A74BE59C555D712837117630 /* GameAbout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAbout.swift; sourceTree = "<group>"; };
 		AF547FDDE9D934418DCD65A2 /* TrailBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailBoard.swift; sourceTree = "<group>"; };
 		B2DF6A4402BA7C1BF14E7F22 /* MossboundTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MossboundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDA87E6B3DDC635C0BA9E4D1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		BDA87E6B3DDC635C0BA9E4D1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		BFBE8ACF8DFF7ED3FE429995 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C0BD5D3C919F045142421D84 /* StoreLinks.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = StoreLinks.plist; sourceTree = "<group>"; };
 		CEAEDF871437EAEBA84CFA93 /* MossboundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MossboundApp.swift; sourceTree = "<group>"; };
 		D0BAFE6C366577A5D2EC7606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3C49E23219F0CADD63D38F5 /* CrossingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossingView.swift; sourceTree = "<group>"; };
+		E2C7B7F7DE84ADCAB0922FCC /* BrowserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserSession.swift; sourceTree = "<group>"; };
 		E4A015C2236E7F218EC0B243 /* Mossbound-privacy.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Mossbound-privacy.txt"; sourceTree = "<group>"; };
 		E7229BEE158B4F213D227697 /* CrossingSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossingSession.swift; sourceTree = "<group>"; };
-		EB5059EFAD2E71413CBDA0BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EBA7174EBA4FDC70064B5AAB /* CrossingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossingUITests.swift; sourceTree = "<group>"; };
 		F7925E33585DAEA3B5EF4E0D /* bump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bump.wav; sourceTree = "<group>"; };
 		FA6E4141C3EC491137FEF0A7 /* WetlandSurveyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WetlandSurveyTests.swift; sourceTree = "<group>"; };
@@ -96,6 +110,7 @@
 		9C242A997F7F33326A84BE4F /* UITests */ = {
 			isa = PBXGroup;
 			children = (
+				025542CEB21C978838A4A2F1 /* BrowserJourney.swift */,
 				EBA7174EBA4FDC70064B5AAB /* CrossingUITests.swift */,
 			);
 			path = UITests;
@@ -114,6 +129,7 @@
 		BF058088B2FE00D062A4CCF4 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				6D6476A5A8D9D407C1D62B63 /* AppLaunchTests.swift */,
 				9368C868D0A7327EF67C0625 /* PracticeTrailTests.swift */,
 				7A76A52A283CA2E6A95ABC51 /* TrailGameTests.swift */,
 				82DF916FBB5C655102FAF151 /* TrailJournalTests.swift */,
@@ -125,16 +141,21 @@
 		DC568879F11FF3938D792380 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				7CCB0F77A8107361A0DBF0D4 /* AppEndpoints.swift */,
+				7E555F74F98C71529AAF7484 /* AppLaunch.swift */,
 				D0BAFE6C366577A5D2EC7606 /* Assets.xcassets */,
+				E2C7B7F7DE84ADCAB0922FCC /* BrowserSession.swift */,
 				E7229BEE158B4F213D227697 /* CrossingSession.swift */,
 				D3C49E23219F0CADD63D38F5 /* CrossingView.swift */,
 				60FC6EF82A30EBC5A51C0B20 /* FieldNotebook.swift */,
 				3BEE08E6720F19122F1B3B5F /* FieldStyle.swift */,
 				A74BE59C555D712837117630 /* GameAbout.swift */,
+				38D0162AF2235E58E0E6F8E9 /* InAppBrowser.swift */,
 				E4A015C2236E7F218EC0B243 /* Mossbound-privacy.txt */,
 				CEAEDF871437EAEBA84CFA93 /* MossboundApp.swift */,
 				55A06789173A794BD5C3C752 /* PracticeTrail.swift */,
 				BDA87E6B3DDC635C0BA9E4D1 /* PrivacyInfo.xcprivacy */,
+				713C36D79E10FBCEE0B3FA39 /* RegistrationClient.swift */,
 				C0BD5D3C919F045142421D84 /* StoreLinks.plist */,
 				4FF18A17C75F343982E7D834 /* TrailAudio.swift */,
 				AF547FDDE9D934418DCD65A2 /* TrailBoard.swift */,
@@ -272,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD7E1F495377087BBD647EC /* BrowserJourney.swift in Sources */,
 				F6BCCDB2BDFF5DC25FCC6BD5 /* CrossingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,13 +302,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C45DC5350E01333AF96B5FFF /* AppEndpoints.swift in Sources */,
+				6B32B3CBEB0986891C7A231B /* AppLaunch.swift in Sources */,
+				44DA91E6F082E45634862AD9 /* BrowserSession.swift in Sources */,
 				FB0A4D03DEB3887B9543BA77 /* CrossingSession.swift in Sources */,
 				6971F11F244C973EBC107041 /* CrossingView.swift in Sources */,
 				AE77CF8602F4EFA4EAE97175 /* FieldNotebook.swift in Sources */,
 				1B60E3BDAC84A82328EAA5A7 /* FieldStyle.swift in Sources */,
 				3B8400B46C8947D21AC6AF89 /* GameAbout.swift in Sources */,
+				35091625EB2499DF768CA8F3 /* InAppBrowser.swift in Sources */,
 				872540920B783735D16A4C02 /* MossboundApp.swift in Sources */,
 				8BEDF77C339528163A7888E1 /* PracticeTrail.swift in Sources */,
+				78327A6F392078A1DFCDA60B /* RegistrationClient.swift in Sources */,
 				531F52800017BA54330691EE /* TrailAudio.swift in Sources */,
 				30072066758A9BE77008B310 /* TrailBoard.swift in Sources */,
 				E64917FA1427EC1E07683260 /* TrailGame.swift in Sources */,
@@ -299,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D38ABA42143B1D6A66E8E73 /* AppLaunchTests.swift in Sources */,
 				063BA645F6325721536EC83D /* PracticeTrailTests.swift in Sources */,
 				9EC9C2796FD611304336242B /* TrailGameTests.swift in Sources */,
 				38E6785B3A43B2A96694BC5F /* TrailJournalTests.swift in Sources */,
@@ -325,7 +353,7 @@
 		0BEDFDA80B66358D1A1B909D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EB5059EFAD2E71413CBDA0BC /* en */,
+				BFBE8ACF8DFF7ED3FE429995 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -356,8 +384,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_CFBundleDisplayName = Sweetbound;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
@@ -554,8 +582,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_CFBundleDisplayName = Sweetbound;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
